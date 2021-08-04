@@ -6,8 +6,18 @@ body {
   height: 100vh;
 }
 
+.contenido {
+  width: 75%;
+  margin: 0 auto;
+  background-color: rgba(160,81,135,0.1);
+  padding: 10px 15px;
+  box-shadow: 0px 1px 16px -4px rgba(160,81,135,0.51);
+}
+
 .contenido p {
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
 }
 
 .contenido ul {
