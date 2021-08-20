@@ -64,3 +64,14 @@ body {
 .cabecera__menu li a:hover {
   color: purple ;
 }
+
+footer {
+  height: auto;
+  padding: 20px;
+  background-color: purple;
+  color: white;
+}
+
+.footer p {
+  text-align: center;
+}
