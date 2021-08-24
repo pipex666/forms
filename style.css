@@ -3,14 +3,12 @@ body {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin: 0;
 }
 
 .contenido {
   width: 75%;
   margin: 0 auto;
-  background-color: #333333;
-  padding: 10px 15px;
-  box-shadow: 0px 1px 16px -4px rgba(0,0,0,0.51);
 }
 
 .contenido p {
@@ -36,7 +34,10 @@ body {
   padding: 10px 0px;
   background-color: purple;
   box-shadow: 0px 1px 16px -4px rgba(0,0,0,0.51);
-  margin-bottom: 20px;
+}
+
+.cabecera h1 {
+  font-size: 40px;
 }
 
 .cabecera__menu ul {
@@ -74,4 +75,30 @@ footer {
 
 .footer p {
   text-align: center;
+}
+
+.logo-github {
+  background-color: white;
+  box-shadow: 0px 1px 16px -4px rgba(0,0,0,0.51);
+}
+
+.logo-github img{
+  width: 500px;
+}
+
+.titulo-ppal {
+  color: purple;
+  background-color: white;
+  box-shadow: 0px 1px 16px -4px rgba(0,0,0,0.51);
+}
+
+.titulo-ppal h2{
+  margin: 0;
+  font-size: 32px;
+}
+
+.parrafo {
+  padding: 10px 50px;
+  background-color: #333333;
+  box-shadow: 0px 1px 16px -4px rgba(0,0,0,0.51);
 }
