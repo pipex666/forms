@@ -46,7 +46,6 @@ body {
 
 .cabecera__menu li{
   list-style: none;
-  padding: 0 50px;
 }
 
 .cabecera__menu li:hover{
@@ -58,6 +57,7 @@ body {
   text-decoration: none;
   color: white;
   font-size: 25px;
+  padding: 0 50px;
 }
 
 .cabecera__menu li a:hover {
